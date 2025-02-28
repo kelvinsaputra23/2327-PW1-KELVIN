@@ -1,0 +1,51 @@
+
+
+    /* internal css */
+
+    /* element selector */
+    body{
+        background-color: yellow;
+    }
+       /* class selector */
+       .text-danger {
+        color: red;
+       }
+
+       .bg-success {
+        background-color: green;
+
+       }
+       text-warning {
+        background-attachment: blue;
+       }
+
+
+.p-1 {
+
+    padding: 10px;
+}
+
+.m-1 {
+margin: px;
+
+}
+
+.rounded {
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
