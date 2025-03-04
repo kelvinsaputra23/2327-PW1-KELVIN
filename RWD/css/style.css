@@ -1,6 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+
 /* style hp */
 body {
     background-color: red;
+}
+
+img {
+    width: 100px;
+}
+
+p-2 {
+
+    padding: 20px;
+}
+
+row::after{
+content: "";
+clear: both;
+display: table;
+
+
 }
 
 /* style tablet */
