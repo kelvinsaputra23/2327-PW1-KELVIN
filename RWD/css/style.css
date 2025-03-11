@@ -17,7 +17,7 @@ p-2 {
     padding: 20px;
 }
 
-row::after{
+.row::after{
 content: "";
 clear: both;
 display: table;
