@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie Details</title>
+</head>
+<body>
+    <div class="movie-container">
+        <button class="btn-primary" data-id="123">Movie 1</button>
+        <button class="btn-primary" data-id="456">Movie 2</button>
+        <button class="btn-primary" data-id="789">Movie 3</button>
+    </div>
+
+    <div id="movieModal" class="modal">
+        <span class="close">&times;</span>
+        <img id="movie-img" alt="Movie Poster">
+        <h2 id="movie-abel"></h2>
+        <p><strong>Overview:</strong> <span id="modal-overview"></span></p>
+        <p><strong>Release Date:</strong> <span id="modal-release-date"></span></p>
+        <p><strong>Vote Average:</strong> <span id="modal-vote-average"></span></p>
+        <p><strong>Vote Count:</strong> <span id="modal-vote-count"></span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
