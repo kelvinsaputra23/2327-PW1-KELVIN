@@ -1,28 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Movie Details</title>
+    <title>What's Popular in The Movie Database</title>
+  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="movie-container">
-        <button class="btn-primary" data-id="123">Movie 1</button>
-        <button class="btn-primary" data-id="456">Movie 2</button>
-        <button class="btn-primary" data-id="789">Movie 3</button>
+    <div class="container mt-5">
+        <h1 class="text-center">What's Popular in The Movie Database</h1>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card" onclick="openModal('movie1')">
+                    <img src="images/proxy-image.jpeg" class="card-img-top img-fluid" alt="Movie 1">
+                    <div class="card-body">
+                        
+                        <h5 class="card-title">UZUMAKI NARUTO</h5>
+                     </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card" onclick="openModal('movie2')">
+                    <img src="images/proxy-image (1).jpeg" class="card-img-top img-fluid" alt="Movie 2">
+                    <div class="card-body">
+                        <h5 class="card-title">KAMEN RIDER</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card" onclick="openModal('movie3')">
+                    <img src="images/proxy-image (2).jpeg" class="card-img-top img-fluid" alt="Movie 3">
+                    <div class="card-body">
+                        <h5 class="card-title">ONE PEACE</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card" onclick="openModal('movie4')">
+                    <img src="images/proxy-image (3).jpeg" class="card-img-top img-fluid" alt="Movie 4">
+                    <div class="card-body">
+                        <h5 class="card-title">POKEMON</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card" onclick="openModal('movie5')">
+                    <img src="images/proxy-image (4).jpeg" class="card-img-top img-fluid" alt="Movie 5">
+                    <div class="card-body">
+                        <h5 class="card-title">NINJAGO</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card" onclick="openModal('movie6')">
+                    <img src="images/proxy-image (5).jpeg" class="card-img-top img-fluid" alt="Movie 6">
+                    <div class="card-body">
+                        <h5 class="card-title">BOBOBOY</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div id="movieModal" class="modal">
-        <span class="close">&times;</span>
-        <img id="movie-img" alt="Movie Poster">
-        <h2 id="movie-abel"></h2>
-        <p><strong>Overview:</strong> <span id="modal-overview"></span></p>
-        <p><strong>Release Date:</strong> <span id="modal-release-date"></span></p>
-        <p><strong>Vote Average:</strong> <span id="modal-vote-average"></span></p>
-        <p><strong>Vote Count:</strong> <span id="modal-vote-count"></span></p>
-    </div>
-
-    <script src="script.js"></script>
-</body>
 </html>
+
+
+
+
