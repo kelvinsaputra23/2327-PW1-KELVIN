@@ -1,4 +1,4 @@
-.modal {
+.gambar {
     display: none; 
     position: fixed;
     z-index: 1; 
@@ -11,10 +11,10 @@
     background-color: rgba(0,0,0,0.4); 
 }
 .modal-content {
-    background-color: #fefefe;
+    background-color: #681717;
     margin: 15% auto; 
     padding: 20px;
-    border: 1px solid #888;
+    border: 1px solid#888;
     width: 80%; 
 }
 
